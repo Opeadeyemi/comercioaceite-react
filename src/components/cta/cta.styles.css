@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'ComicSansBD';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../../fonts/ComicSansMSBold.ttf'); /* IE9 Compat Modes */
+  }
+
+.ctacontainer{
+    width: 100%;
+    height: 100%;
+    background-image:url(../../img/landingback.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-shrink: 1;
+    
+}
+
+.coloroverlay{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    background-color: var(--opaquethemecolor);
+    font-family: ComicSansBD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.3rem 0.2rem;
+}
+
+.businessdesc{
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+    
+}
+
+.we{
+    font-size: 5rem;
+    text-decoration: underline;
+    -webkit-text-stroke: 0.3rem var(--themecolor);
+    transform: rotate(-10deg);
+}
+
+@media only screen and (min-width:800px){
+    .businessdesc{
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .we{
+        font-size: 9rem;
+    }
+}
+
+.businessdesc, .we{
+    text-shadow: 1.5px 1.5px 0px rgb(63, 62, 62);
+}
+.btnlearnmore{
+    background-color: var(--themecolor) !important;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}

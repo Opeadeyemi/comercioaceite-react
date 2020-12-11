@@ -1,0 +1,83 @@
+.apcontainer{
+    position: absolute;
+    /* position: relative; */
+    width: 95%;
+    height: 100vh;
+    background-color: var(--opaquethemecolor);
+    top: -0px;
+    z-index: 999;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apdetailscontainer{
+    background-color: white;
+    width: 85%;
+    /* width: 80%; */
+    height: 80vh;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 415px;
+}
+
+.aboutclose{
+    color: white;
+    background-color: red;
+    position: absolute !important;
+    padding: 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 84%;
+    top: 4rem;
+}
+
+@media only screen and (min-width: 570px){
+    .aboutclose{
+        position: fixed;
+        left: 80%
+    }
+}
+
+.pimage{
+    border-radius: 20px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.3);
+    overflow: hidden;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem !important;
+    flex-shrink: 0;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.pabout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    height: 80%;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.pname{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--themecolor);
+}
+
+.pdesc{
+    text-align: justify;
+    font-size: 1.5rem;
+    overflow-y: scroll !important;
+}

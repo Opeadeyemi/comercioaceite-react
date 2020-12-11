@@ -1,0 +1,38 @@
+.contactinfocontainer{
+    height: 100%;
+    width: 100%;
+    background-color: var(--themecolor);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* align-items: flex-end; */
+}
+
+.infoparagraph{
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.contactdetails{
+    font-size: 1.6rem;
+}
+
+.contacticon{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.customercareimage{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 5000px;
+    margin-bottom: -30px;
+    margin-right: -20px;
+    align-self: flex-end;
+    background-image: url(../../img/customer.jpg);
+    background-size: contain;
+}

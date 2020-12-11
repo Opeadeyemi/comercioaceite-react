@@ -1,0 +1,19 @@
+.productscontainer{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    padding-top: 0.2rem !important;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+.productscontainer h3{
+    /* color:white; */
+    font-weight: 400;
+    font-size: 2.5rem;
+
+}
+
+.cardcontainer{
+    margin-top: 7em;
+}
+

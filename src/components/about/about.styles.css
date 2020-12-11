@@ -1,0 +1,14 @@
+#aboutcomponent{
+    padding: 1rem 2rem;
+}
+.abouttext{
+    font-size: 1.7rem;
+    text-align: justify;
+    line-height: 3.3rem;
+}
+
+@media only screen and (min-width:850px){
+    .abouttext{
+        font-size: 2.1rem;
+    }
+}

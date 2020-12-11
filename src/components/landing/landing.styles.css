@@ -1,0 +1,11 @@
+.landingpage{
+    width: 100%;
+    height: 70vh;
+    background-color: #f4f7f7;
+}
+
+@media only screen and (max-width: 800px){
+    .landingpage{
+        height: 65vh;
+    }
+}

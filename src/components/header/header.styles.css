@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'GothicMD';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../../fonts/BankGothicMdBT.ttf'); /* IE9 Compat Modes */
+  }
+
+
+.headercontainer{
+    /* max-height: 50px; */
+    display: flex;
+    /* tests */
+     /* position:fixed;
+    z-index: 99999;
+    
+    box-shadow: 2px 2px 2px rgba(5, 5, 5, 0.363);  */
+    background-color:#e9ecec;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.3);
+    max-height: 30rem;
+    user-select: none;
+}
+
+.logodiv{
+    flex: 0 0 15%;
+}
+
+/* .logo{
+    width: 100px;
+    height: 100px;
+} */
+
+.titlecontainer{
+    display:flex;
+
+    /* border: 2px solid red; */
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* border: 1px solid red; */
+}
+
+@media only screen and (min-width: 992px){
+    .titlecontainer{
+        flex-direction: column;
+    }
+}
+
+
+.sitetitle{
+    font-family: GothicMD;
+    color: var(--themecolor);
+    align-self: center;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px){
+    .sitetitle{
+        font-size: 2.7rem;
+    }
+}
+@media only screen and (min-width: 700px){
+    .sitetitle{
+        font-size: 3.5rem;
+    }
+}
+
+#hamburger{
+    font-size: 4rem;
+    color: var(--themecolor);
+}
+
+.headerlinkcontainer{
+    display: flex;
+    width: 100%;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.headlinks{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    border-top: 3px solid var(--themecolor);
+    background-color:transparent !important;
+
+}
+.headlll{
+    background-color: transparent !important;
+    box-shadow: none;
+    color: var(--themecolor) !important;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headlll:hover{
+    color: white !important;
+    background-color: var(--themecolor) !important;
+}
+
+
+
+/* Side bar styles */
+.sidebarcontainer{
+    width: 25rem;
+    background-color: var(--themecolor) !important;
+    height: 100vh;
+    position: fixed;
+    top: 0rem;
+    left: -100%;
+    z-index:99;
+    color:white;
+    /* overflow-y: scroll; */
+    transition: 400ms;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(5, 5, 5, 0.363);
+    padding-bottom: 2rem; 
+
+}
+
+.closebtn{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    /* border-radius: 50px; */
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 85%;
+}
+.sidebarcontainer.active{
+    left: 0px;
+
+}
+
+.menutitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    border-bottom: 3px double rgb(170, 167, 167);
+    padding-bottom: 5px;
+    margin: 2rem 1rem;
+}
+
+.sidebarlinks{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    height: 100%;
+}
+
+/* .nav-text{
+    background-color:red;
+} */
+.nav-text:hover{
+    background-color:#1a83ff;
+}
+
+.nav-text a{
+   
+    font-size: 1.6rem;
+}
+.nav-text a span{
+    margin-left: 1.3rem;
+}
+
+.sidenavcontactcontainer{
+    /* border: 2px solid red; */
+    flex: 1 1 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 3rem;
+}
+
+.sidenavcontact{
+    font-size: 1.2rem !important;
+    line-height: 3rem;
+    
+}
+
+.sidenavcontactdetails{
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 3px !important;
+}
+
+
+/* Language Button styles */
+
+.btnchangelanguage{
+    background-color: var(--themecolor) !important;
+    z-index: 9999 !important;
+    width: 100px !important;
+    border-radius: 10px;
+    font-size: 1rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+
+
+}
+
+.langoption-floating{
+    width: 100px;
+    /* left: -30px; */
+    border-radius: 10px !important;
+    font-family: serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+}

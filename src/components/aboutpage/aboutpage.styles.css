@@ -1,0 +1,40 @@
+.choosecard{
+    background-color: rgb(232, 243, 240);
+    margin: .5em 0em;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.3);
+    padding: 2em !important;
+    border-radius: 4px;
+}
+.choosecard h3{
+    font-weight: 500;
+    color: var(--themecolor)
+}
+.choosecard p{
+   font-size: 1.5rem;
+   text-align: justify;
+   line-height: 3rem;
+}
+
+.chooseicon{
+    font-size: 5em;
+    color: var(--themecolor)
+}
+
+@media only screen and (min-width:601px){
+
+    .choosecard{
+        background-color: transparent !important;
+        margin: .5em 0em;
+        box-shadow: none !important;
+        padding: 2em !important;
+        border-radius: 4px;
+    }
+    .choosecard p{
+        font-size: 2rem;
+    text-align: justify;
+    line-height: 3.3rem;
+    }
+    .choosecard h3{
+        margin: 2rem 0;
+    }
+}
